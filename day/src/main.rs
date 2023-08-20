@@ -17,3 +17,30 @@
 // }
 
 // There are two types of loops in Rust: the "while loop" and the "infinite loop(uses the "loop"keyword)""
+
+fn main() {
+    // let a = 0;
+    // let b = -5;
+
+    fn add_dis(a: i32, b: i32) -> i32 {
+        a + b
+    }
+    let mut summ = add_dis(0, -5);
+
+    // the "inifinite loop"
+    loop {
+        if summ == 6 {
+            break;
+        }
+        println!("{:?}", summ);
+        summ += 1;
+    }
+
+    // the "while" loop.
+    let mut first_value = 0;
+
+    while first_value != 5 {
+        println!("{:?}", first_value);
+        first_value = first_value + 1;
+    }
+}
