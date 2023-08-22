@@ -1,1 +1,1 @@
-/home/page/Desktop/Rust/Rust\ excercise\ and\ work/day/target/debug/day: /home/page/Desktop/Rust/Rust\ excercise\ and\ work/day/src/main.rs
+/home/page/Desktop/Rust/Rust\ excercise\ and\ work/dayer/target/debug/day: /home/page/Desktop/Rust/Rust\ excercise\ and\ work/dayer/src/main.rs

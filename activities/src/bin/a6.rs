@@ -10,4 +10,25 @@
 // * Print the variable within the while loop
 // * Do not use break to exit the loop
 
-fn main() {}
+// fn main() {
+//     let mut count = 5;
+
+//     while count >= 1 {
+//         println!("{count}");
+//         count -= 1;
+//     }
+//     println!("Done");
+// }
+
+fn main() {
+    let mut count = 5;
+
+    while true {
+        println!("{count}");
+        if count == 1 {
+            break;
+        }
+        count -= 1;
+    }
+    println!("Done");
+}
