@@ -50,10 +50,9 @@ fn print_choice(choice: &MenuSelect) {
 }
 
 fn main() {
-    let choice = get_choice("mainmen");
+    let choice: Result<MainMenu, _> = get_choice("mainmen"); // _ means anything else
     match choice {
         Ok(main_selection) => print_choice(&main_selection),
         Err(e) => println!("error = {:?}", e),
     }
-    // println!("choice : {:?} ", choice);
 }
