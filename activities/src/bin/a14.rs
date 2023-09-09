@@ -10,7 +10,7 @@
 // * Iterate through the vector using a for..in loop
 // * Use an if expression to determine which person's info should be printed
 // * The name and colors should be printed using a function
-Ticket { price: 50, .. } => println!("event @ 30: {:?} ", 50),
+Ticket { price: 50, .. } => println!("event @ 30: {:?} ", 50)
 
 struct Person {
     name: String,
