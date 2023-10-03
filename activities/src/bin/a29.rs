@@ -34,5 +34,14 @@ impl Priority for Guest {
         ServicePriority::Standard
     }
 }
+fn print_priority<T: Priority + std::fmt::Debug>(set_priority: T) {
+    let print_out = set_priority.get_priority();
+    println!("The {:?} is: {:?} ", set_priority, print_out);
+}
 
-fn main() {}
+fn main() {
+    let first_guest = ImportantGuest;
+    let second_guest = Guest;
+    print_priority(first_guest);
+    print_priority(second_guest);
+}
