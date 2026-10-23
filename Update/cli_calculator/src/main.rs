@@ -69,3 +69,7 @@ fn output(first_num: f32, operator: char, second_num: f32, result: f32) -> Strin
     first_num, operator, second_num, result
   )
 }
+
+// commands used 
+// cargo run 5 + 5
+// cli_calculator/target/release/cli_calculator 3 + 5
